@@ -1,0 +1,3 @@
+Map.cpp:10:1:Map::Map()	16	static
+Map.cpp:15:1:Map::~Map()	16	static
+Map.cpp:15:1:virtual Map::~Map()	16	static

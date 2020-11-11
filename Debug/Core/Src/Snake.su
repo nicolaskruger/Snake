@@ -1,0 +1,108 @@
+Map.h:17:13:static int Map::maxX()	4	static
+Map.h:18:13:static int Map::maxY()	4	static
+new:168:14:void* operator new(std::size_t, void*)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+node.h:16:2:node::node(std::__cxx11::string)	32	static
+node.h:17:2:node::node(int, int)	40	static
+Game.h:16:13:static int Game::fps()	4	static
+Controller.h:48:16:static double Controller::getVel()	24	static
+Snake.h:20:8:float Snake::nextX()	24	static
+Snake.h:21:8:float Snake::nextY()	24	static
+Entity.h:14:7:constexpr Entity::Entity(const Entity&)	16	static
+node.h:11:7:node::node(const node&)	16	static
+Snake.cpp:10:1:Snake::Snake()	400	static
+Snake.cpp:25:1:Snake::Snake(Food*, void**)	408	static
+Snake.cpp:39:1:Snake::~Snake()	16	static
+Snake.cpp:39:1:virtual Snake::~Snake()	16	static
+Snake.cpp:42:6:virtual void Snake::tick()	40	static
+Snake.cpp:68:6:virtual void Snake::render()	24	static
+Snake.cpp:75:7:float Snake::next(float, float, int)	24	static
+Snake.cpp:81:6:void Snake::resetGame()	112	static
+Snake.cpp:86:6:bool Snake::autoBite()	32	static
+Snake.cpp:92:6:void Snake::eatFood()	72	static
+stl_vector.h:795:7:std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+stl_vector.h:259:7:std::vector<_Tp, _Alloc>::vector() [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+stl_vector.h:433:7:std::vector<_Tp, _Alloc>::~vector() [with _Tp = node; _Alloc = std::allocator<node>]	24	static
+initializer_list:75:7:constexpr const _E* std::initializer_list<_E>::begin() const [with _E = node]	16	static
+initializer_list:79:7:constexpr const _E* std::initializer_list<_E>::end() const [with _E = node]	24	static
+stl_vector.h:482:7:std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = node; _Alloc = std::allocator<node>]	40	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = node&]	16	static
+stl_vector.h:953:7:void std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+stl_vector.h:670:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = std::vector<node>&]	16	static
+stl_vector.h:461:7:std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = node; _Alloc = std::allocator<node>]	32	static
+stl_vector.h:81:14:std::_Vector_base<node, std::allocator<node> >::_Vector_impl::~_Vector_impl()	16	static
+stl_vector.h:126:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base() [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+stl_vector.h:161:7:std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+stl_vector.h:115:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+stl_construct.h:203:5:void std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = node*; _Tp = node]	24	static
+initializer_list:71:7:constexpr std::initializer_list<_E>::size_type std::initializer_list<_E>::size() const [with _E = node]	16	static
+vector.tcc:278:7:void std::vector<_Tp, _Alloc>::_M_assign_aux(_ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = const node*; _Tp = node; _Alloc = std::allocator<node>]	48	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = node]	16	static
+vector.tcc:95:7:) [with _Args = {node}; _Tp = node; _Alloc = std::allocator<node>]	24	static
+stl_vector.h:1529:7:void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = node; _Alloc = std::allocator<node>]	48	static
+stl_vector.h:88:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl() [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = node]	16	static
+stl_vector.h:176:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = node; _Alloc = std::allocator<node>]	24	static
+stl_construct.h:127:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = node*]	16	static
+stl_iterator_base_types.h:205:5:constexpr typename std::iterator_traits<_Iterator>::iterator_category std::__iterator_category(const _Iter&) [with _Iter = const node*]	16	static
+stl_iterator_base_funcs.h:138:5:typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = const node*]	32	static
+stl_vector.h:750:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::capacity() const [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+stl_vector.h:1257:2:std::vector<_Tp, _Alloc>::pointer std::vector<_Tp, _Alloc>::_M_allocate_and_copy(std::vector<_Tp, _Alloc>::size_type, _ForwardIterator, _ForwardIterator) [with _ForwardIterator = const node*; _Tp = node; _Alloc = std::allocator<node>]	32	static
+stl_vector.h:1511:7:void std::vector<_Tp, _Alloc>::_M_erase_at_end(std::vector<_Tp, _Alloc>::pointer) [with _Tp = node; _Alloc = std::allocator<node>]	24	static
+stl_algobase.h:446:5:_OI std::copy(_II, _II, _OI) [with _II = const node*; _OI = node*]	32	static
+stl_iterator_base_funcs.h:197:5:void std::advance(_InputIterator&, _Distance) [with _InputIterator = const node*; _Distance = unsigned int]	32	static
+stl_uninitialized.h:287:5:_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = const node*; _ForwardIterator = node*; _Tp = node]	24	static
+alloc_traits.h:474:2:) [with _Up = node; _Args = {node}; _Tp = node]	24	static
+stl_vector.h:581:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::end() [with _Tp = node; _Alloc = std::allocator<node>]	24	static
+vector.tcc:394:7:) [with _Args = {node}; _Tp = node; _Alloc = std::allocator<node>]	56	static
+stl_vector.h:123:7:std::_Vector_base<_Tp, _Alloc>::allocator_type std::_Vector_base<_Tp, _Alloc>::get_allocator() const [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+stl_vector.h:270:7:std::vector<_Tp, _Alloc>::vector(const allocator_type&) [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+stl_vector.h:103:7:void std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl&) [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+alloc_traits.h:543:17:void std::__alloc_on_move(_Alloc&, _Alloc&) [with _Alloc = std::allocator<node>]	24	static
+allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = node]	16	static
+new_allocator.h:86:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = node]	16	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_CharT> >::deallocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::pointer, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = node]	24	static
+move.h:47:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = node]	16	static
+stl_construct.h:105:9:static void std::_Destroy_aux<<anonymous> >::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = node*; bool <anonymous> = false]	16	static
+stl_iterator_base_funcs.h:98:5:constexpr typename std::iterator_traits<_Iterator>::difference_type std::__distance(_RandomAccessIterator, _RandomAccessIterator, std::random_access_iterator_tag) [with _RandomAccessIterator = const node*]	24	static
+stl_vector.h:169:7:std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+cpp_type_traits.h:408:5:_Iterator std::__miter_base(_Iterator) [with _Iterator = const node*]	16	static
+stl_algobase.h:420:5:_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const node*; _OI = node*]	32	static
+stl_iterator_base_funcs.h:174:5:constexpr void std::__advance(_RandomAccessIterator&, _Distance, std::random_access_iterator_tag) [with _RandomAccessIterator = const node*; _Distance = int]	24	static
+stl_uninitialized.h:115:5:_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const node*; _ForwardIterator = node*]	32	static
+new_allocator.h:135:2:) [with _Up = node; _Args = {node}; _Tp = node]	32	static
+stl_iterator.h:779:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::__normal_iterator(const _Iterator&) [with _Iterator = node*; _Container = std::vector<node>]	16	static
+stl_vector.h:1497:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::_M_check_len(std::vector<_Tp, _Alloc>::size_type, const char*) const [with _Tp = node; _Alloc = std::allocator<node>]	40	static
+stl_vector.h:563:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::begin() [with _Tp = node; _Alloc = std::allocator<node>]	24	static
+stl_iterator.h:962:5:typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&) [with _Iterator = node*; _Container = std::vector<node>]	24	static
+stl_iterator.h:844:7:const _Iterator& __gnu_cxx::__normal_iterator<_Iterator, _Container>::base() const [with _Iterator = node*; _Container = std::vector<node>]	16	static
+stl_uninitialized.h:305:5:_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = node*; _ForwardIterator = node*; _Allocator = std::allocator<node>]	32	static
+stl_vector.h:119:7:const _Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() const [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+allocator.h:133:7:std::allocator< <template-parameter-1-1> >::allocator(const std::allocator< <template-parameter-1-1> >&) [with _Tp = node]	16	static
+stl_vector.h:129:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base(const allocator_type&) [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = node*&]	16	static
+move.h:187:5:typename std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> >::value>::type std::swap(_Tp&, _Tp&) [with _Tp = node*]	24	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = std::allocator<node>&]	16	static
+alloc_traits.h:535:17:void std::__do_alloc_on_move(_Alloc&, _Alloc&, std::true_type) [with _Alloc = std::allocator<node>]	24	static
+new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = node]	16	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = node]	24	static
+stl_construct.h:97:5:void std::_Destroy(_Tp*) [with _Tp = node]	16	static
+alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_CharT> >::allocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = node]	16	static
+stl_algobase.h:277:5:_Iterator std::__niter_base(_Iterator) [with _Iterator = const node*]	16	static
+stl_algobase.h:277:5:_Iterator std::__niter_base(_Iterator) [with _Iterator = node*]	16	static
+stl_algobase.h:375:5:_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = const node*; _OI = node*]	32	static
+stl_uninitialized.h:76:9:static _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const node*; _ForwardIterator = node*; bool _TrivialValueTypes = false]	32	static
+stl_vector.h:675:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::max_size() const [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+stl_algobase.h:219:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = unsigned int]	16	static
+stl_iterator.h:1221:5:_ReturnType std::__make_move_if_noexcept_iterator(_Tp*) [with _Tp = node; _ReturnType = const node*]	16	static
+new_allocator.h:81:7:__gnu_cxx::new_allocator<_Tp>::new_allocator(const __gnu_cxx::new_allocator<_Tp>&) [with _Tp = node]	16	static
+stl_vector.h:92:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl(const _Tp_alloc_type&) [with _Tp = node; _Alloc = std::allocator<node>]	16	static
+new_allocator.h:99:7:_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = node]	24	static
+Entity.h:14:7:constexpr Entity& Entity::operator=(const Entity&)	16	static
+node.h:11:7:node& node::operator=(const node&)	16	static
+stl_algobase.h:319:9:static _OI std::__copy_move<false, false, std::random_access_iterator_tag>::__copy_m(_II, _II, _OI) [with _II = const node*; _OI = node*]	32	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = const node&]	16	static
+stl_construct.h:74:5:) [with _T1 = node; _Args = {const node&}]	24	static
+alloc_traits.h:495:7:static std::allocator_traits<std::allocator<_CharT> >::size_type std::allocator_traits<std::allocator<_CharT> >::max_size(const allocator_type&) [with _Tp = node]	16	static
+new_allocator.h:129:7:__gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = node]	16	static

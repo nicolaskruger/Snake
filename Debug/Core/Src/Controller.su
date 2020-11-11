@@ -1,0 +1,72 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+basic_string.h:6405:3:std::__cxx11::string std::__cxx11::to_string(int)	24	static
+Controller.h:27:14:static bool Controller::getSafe(bool (*)())	24	static
+Controller.h:33:14:static bool Controller::Up()	4	static
+Controller.h:34:14:static bool Controller::Down()	4	static
+Controller.h:35:14:static bool Controller::Left()	4	static
+Controller.h:36:14:static bool Controller::Rigth()	4	static
+Controller.h:43:14:static bool Controller::getUp()	8	static
+Controller.h:44:14:static bool Controller::getDown()	8	static
+Controller.h:45:14:static bool Controller::getLeft()	8	static
+Controller.h:46:14:static bool Controller::getRigth()	8	static
+Controller.cpp:21:1:Controller::Controller()	16	static
+Controller.cpp:26:1:Controller::~Controller()	16	static
+Controller.cpp:26:1:virtual Controller::~Controller()	16	static
+Controller.cpp:30:6:static void Controller::atlVal()	8	static
+Controller.cpp:39:6:static void Controller::Display()	128	static
+Controller.cpp:46:9:static int32_t Controller::adRead(ADC_HandleTypeDef*)	16	static
+Controller.cpp:51:5:static int Controller::getDir()	16	static
+string_conversions.h:99:5:) [with _String = std::__cxx11::basic_string<char>; _CharT = char]	52	dynamic
+allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = bool*]	16	static
+allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = bool*]	16	static
+initializer_list:75:7:constexpr const _E* std::initializer_list<_E>::begin() const [with _E = bool*]	16	static
+initializer_list:79:7:constexpr const _E* std::initializer_list<_E>::end() const [with _E = bool*]	24	static
+stl_vector.h:383:7:std::vector<_Tp, _Alloc>::vector(std::initializer_list<_Tp>, const allocator_type&) [with _Tp = bool*; _Alloc = std::allocator<bool*>]	40	static
+stl_vector.h:433:7:std::vector<_Tp, _Alloc>::~vector() [with _Tp = bool*; _Alloc = std::allocator<bool*>]	24	static
+stl_vector.h:670:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = bool*; _Alloc = std::allocator<bool*>]	16	static
+stl_vector.h:795:7:std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = bool*; _Alloc = std::allocator<bool*>]	16	static
+basic_string.h:604:9:std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(_InputIterator, _InputIterator, const _Alloc&) [with _InputIterator = char*; <template-parameter-2-2> = void; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	32	static
+new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = bool*]	16	static
+new_allocator.h:86:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = bool*]	16	static
+stl_vector.h:81:14:std::_Vector_base<bool*, std::allocator<bool*> >::_Vector_impl::~_Vector_impl()	16	static
+stl_vector.h:129:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base(const allocator_type&) [with _Tp = bool*; _Alloc = std::allocator<bool*>]	16	static
+stl_vector.h:161:7:std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = bool*; _Alloc = std::allocator<bool*>]	16	static
+initializer_list:71:7:constexpr std::initializer_list<_E>::size_type std::initializer_list<_E>::size() const [with _E = bool*]	16	static
+stl_vector.h:1319:2:void std::vector<_Tp, _Alloc>::_M_range_initialize(_ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = bool* const*; _Tp = bool*; _Alloc = std::allocator<bool*>]	40	static
+stl_vector.h:115:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = bool*; _Alloc = std::allocator<bool*>]	16	static
+stl_construct.h:203:5:void std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = bool**; _Tp = bool*]	24	static
+basic_string.h:252:9:void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_construct(_InIterator, _InIterator) [with _InIterator = char*; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	32	static
+stl_vector.h:92:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl(const _Tp_alloc_type&) [with _Tp = bool*; _Alloc = std::allocator<bool*>]	16	static
+stl_vector.h:176:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = bool*; _Alloc = std::allocator<bool*>]	24	static
+stl_iterator_base_types.h:205:5:constexpr typename std::iterator_traits<_Iterator>::iterator_category std::__iterator_category(const _Iter&) [with _Iter = bool* const*]	16	static
+stl_iterator_base_funcs.h:138:5:typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = bool* const*]	32	static
+stl_vector.h:169:7:std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = bool*; _Alloc = std::allocator<bool*>]	16	static
+stl_uninitialized.h:287:5:_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = bool* const*; _ForwardIterator = bool**; _Tp = bool*]	24	static
+stl_construct.h:127:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = bool**]	16	static
+basic_string.h:232:9:void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_construct_aux(_InIterator, _InIterator, std::__false_type) [with _InIterator = char*; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	40	static
+allocator.h:133:7:std::allocator< <template-parameter-1-1> >::allocator(const std::allocator< <template-parameter-1-1> >&) [with _Tp = bool*]	16	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_CharT> >::deallocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::pointer, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = bool*]	24	static
+stl_iterator_base_funcs.h:98:5:constexpr typename std::iterator_traits<_Iterator>::difference_type std::__distance(_RandomAccessIterator, _RandomAccessIterator, std::random_access_iterator_tag) [with _RandomAccessIterator = bool* const*]	24	static
+alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_CharT> >::allocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = bool*]	16	static
+stl_uninitialized.h:115:5:_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = bool* const*; _ForwardIterator = bool**]	32	static
+stl_construct.h:117:9:static void std::_Destroy_aux<true>::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = bool**]	16	static
+basic_string.tcc:206:7:void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_construct(_InIterator, _InIterator, std::forward_iterator_tag) [with _FwdIterator = char*; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	32	static
+new_allocator.h:81:7:__gnu_cxx::new_allocator<_Tp>::new_allocator(const __gnu_cxx::new_allocator<_Tp>&) [with _Tp = bool*]	16	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = bool*]	24	static
+new_allocator.h:99:7:_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = bool*]	24	static
+stl_uninitialized.h:99:9:static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = bool* const*; _ForwardIterator = bool**]	24	static
+type_traits.h:152:5:bool __gnu_cxx::__is_null_pointer(_Type*) [with _Type = char]	16	static
+stl_iterator_base_types.h:205:5:constexpr typename std::iterator_traits<_Iterator>::iterator_category std::__iterator_category(const _Iter&) [with _Iter = char*]	16	static
+stl_iterator_base_funcs.h:138:5:typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = char*]	32	static
+new_allocator.h:129:7:__gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = bool*]	16	static
+stl_algobase.h:446:5:_OI std::copy(_II, _II, _OI) [with _II = bool* const*; _OI = bool**]	32	static
+stl_iterator_base_funcs.h:98:5:constexpr typename std::iterator_traits<_Iterator>::difference_type std::__distance(_RandomAccessIterator, _RandomAccessIterator, std::random_access_iterator_tag) [with _RandomAccessIterator = char*]	24	static
+cpp_type_traits.h:408:5:_Iterator std::__miter_base(_Iterator) [with _Iterator = bool* const*]	16	static
+stl_algobase.h:420:5:_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = bool* const*; _OI = bool**]	32	static
+stl_algobase.h:277:5:_Iterator std::__niter_base(_Iterator) [with _Iterator = bool* const*]	16	static
+stl_algobase.h:277:5:_Iterator std::__niter_base(_Iterator) [with _Iterator = bool**]	16	static
+stl_algobase.h:375:5:_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = bool* const*; _OI = bool**]	32	static
+stl_algobase.h:357:9:static _Tp* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(const _Tp*, const _Tp*, _Tp*) [with _Tp = bool*; bool _IsMove = false]	32	static
+Controller.cpp:60:1:void __static_initialization_and_destruction_0(int, int)	32	static
+Controller.cpp:60:1:cpp)	8	static
+Controller.cpp:60:1:cpp)	8	static

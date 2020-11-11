@@ -1,0 +1,21 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+Game.h:16:13:static int Game::fps()	4	static
+Controller.h:39:14:static void Controller::setMux(void**)	16	static
+main.cpp:92:5:int main()	128	static
+main.cpp:197:6:void SystemClock_Config()	88	static
+main.cpp:242:13:void MX_ADC1_Init()	24	static
+main.cpp:287:13:void MX_SPI1_Init()	8	static
+main.cpp:325:13:void MX_GPIO_Init()	40	static
+main.cpp:363:16:int32_t adRead(ADC_HandleTypeDef*)	16	static
+main.cpp:368:13:void clk(void (*)())	24	static
+main.cpp:374:13:void rend()	8	static
+main.cpp:380:13:void tic()	8	static
+main.cpp:384:13:void cont()	8	static
+main.cpp:396:6:void render(const void*)	16	static
+main.cpp:415:6:void tick(const void*)	16	static
+main.cpp:433:6:void controller(const void*)	16	static
+main.cpp:453:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	16	static
+main.cpp:470:6:void Error_Handler()	4	static
+main.cpp:476:1:void __static_initialization_and_destruction_0(int, int)	16	static
+main.cpp:476:1:cpp)	8	static
+main.cpp:476:1:cpp)	8	static

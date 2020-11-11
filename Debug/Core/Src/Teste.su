@@ -1,0 +1,3 @@
+Teste.cpp:10:1:Teste::Teste()	16	static
+Teste.cpp:15:1:Teste::~Teste()	16	static
+Teste.cpp:15:1:virtual Teste::~Teste()	16	static

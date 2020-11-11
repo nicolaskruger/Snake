@@ -1,0 +1,10 @@
+Map.h:17:13:static int Map::maxX()	4	static
+Map.h:18:13:static int Map::maxY()	4	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+Entity.h:20:6:int Entity::getX()	24	static
+Entity.h:21:6:int Entity::getY()	24	static
+Food.cpp:10:1:Food::Food(void**)	16	static
+Food.cpp:16:1:Food::~Food()	16	static
+Food.cpp:16:1:virtual Food::~Food()	16	static
+Food.cpp:20:6:virtual void Food::tick()	24	static
+Food.cpp:28:6:virtual void Food::render()	56	static
